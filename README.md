@@ -1,2 +1,2 @@
-# honza-michal.github.io
+# akk-prezentace.github.io
 akk-layout-presentation
