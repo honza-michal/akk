@@ -59,6 +59,23 @@
         <!--<h1>Studie modularity</h1>-->
 
         <div style="flex:1"></div>
+		
+                <div class="row" data-vis-guard>              
+                    <input id="scale"
+                           type="range"
+                           min="10"
+                           max="300"
+                           step="1"
+                           value="100" 
+						   class="uiColors"/>
+                </div>
+				<!-- Scale -->
+				<h3  class="ctl-label">
+                        ZVĚTŠENÍ:
+                        <span id="scaleVal">100</span>
+                        %
+						<span class="help-tip" data-tip="Zvětší obrázek, pokud chcete zvětšení resetovat, můžete použít tlačítko vpravo nahoře">?</span>
+                </h3>
 
         <button id="autoFit" hidden>Zobrazit celek - přizpůsobit viditelné ploše</button>
 
@@ -290,26 +307,6 @@
                         ZOBRAZIT KOTVY
                     </h3>
                 </div>
-
-
-                <!-- Scale -->
-                <div class="row" data-vis-guard>
-                    <h3  class="ctl-label">
-                        ZVĚTŠENÍ:
-                        <span id="scaleVal">100</span>
-                        %
-						<span class="help-tip" data-tip="Zvětší obrázek, pokud chcete zvětšení resetovat, můžete použít tlačítko vpravo nahoře">?</span>
-                    </h3>
-					
-                    <input id="scale"
-                           type="range"
-                           min="10"
-                           max="300"
-                           step="1"
-                           value="100" 
-						   class="uiColors"/>
-                </div>
-
             </div>
         </aside>
 
