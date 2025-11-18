@@ -8,7 +8,7 @@
     --accent-2: #4a7fe2;
     --canvas-bg: #22272D;
     --vscroll-w: 10px;
-    --sidebar-w: 20vw;
+    --sidebar-w: 50vw;
     --resizer-w: 8px;
 }
 
@@ -122,6 +122,7 @@ button:disabled {
     overflow-y: auto;      /* ✅ keep vertical scrolling */
     overflow-x: visible;   /* ✅ let tooltip spill out horizontally */
     text-align: center;
+	
     /* scrollbar-gutter: stable; comment: reserves space on the right side for the scrollbar to appear, for now I disable it because there is not so much things in the sidebar as of now. */
 }
 
@@ -184,7 +185,7 @@ button:disabled {
     min-height: 100%;
     display: grid;
     place-items: center;
-	background-color: #A0AFC6;
+	background-color:#A0AFC6;
 }
 
 
@@ -494,7 +495,7 @@ body:not(.project-ready) [data-vis-guard] {
 /* Injected: grid uses CSS var (--sidebar-w) with 20vw fallback */
 .layout,
 [data-layout] {
-    grid-template-columns: var(--sidebar-w, 20vw) var(--resizer-w, 8px) 1fr;
+    grid-template-columns: var(--sidebar-w, 50vw) var(--resizer-w, 8px) 1fr;
 }
 
 /* prevent layout transitions when sidebar is locked */
