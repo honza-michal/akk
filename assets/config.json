@@ -38,8 +38,8 @@
             "storage": "disabled",
             "anchors": "hidden",
             "scale": "disabled",
-            "exportSvg": "disabled",
-            "exportPng": "disabled",
+            "exportSvg": "hidden",
+            "exportPng": "hidden",
             "filters": "disabled"
         },
         "validSelection": {
@@ -52,8 +52,8 @@
             "storage": "enabled",
             "anchors": "hidden",
             "scale": "enabled",
-            "exportSvg": "enabled",
-            "exportPng": "enabled",
+            "exportSvg": "hidden",
+            "exportPng": "hidden",
             "filters": "enabled"
         }
     },
