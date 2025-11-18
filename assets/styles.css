@@ -579,8 +579,10 @@ button:focus-visible,
 
 .formcol hr {
     border: none;
-    border-top: 1px solid var(--border);
-    margin: 20px;
+    margin-bottom: 30px;
+	margin-top: 30px;
+	background-color: #618EE0;
+	height: 2px;
 }
 
 
