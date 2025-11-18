@@ -563,11 +563,12 @@ button:focus-visible,
 
 #logo {
     width: -webkit-fill-available;
-	max-width: 250px;
+	max-width: 300px;
 	display: block;      /* Change from default inline to block */
     margin-left: auto;   /* Automatically center left margin */
-    margin-right: auto;  /* Automatically center right margin */
-	padding: 40px;
+    margin-right: auto;  /* Automatically center right margin 	padding: 40px;		*/
+
+	text-align:left;
 }
 
 /* Dedicated garage controls hidden by default */
