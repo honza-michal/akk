@@ -10,6 +10,7 @@
     --vscroll-w: 10px;
     --sidebar-w: 50vw;
     --resizer-w: 8px;
+	--ctl-border-width: 3px;
 }
 
 html[data-theme="light"] { /*  */
@@ -21,6 +22,7 @@ html[data-theme="light"] { /*  */
     --accent:  #2a66d2; /* button colors #2a66d2; */
     --accent-2: #366fe0;
     --canvas-bg: #f2f6ff;
+	--ctl-border-width: 3px;
 	
 }
 
@@ -239,12 +241,12 @@ button:disabled {
     display: grid;
     position: relative; /* 🟢 NEW — prevents radios from entering grid flow */
     grid-auto-flow: column;
-    gap: 0;
     border: none;
     border-radius: 999px;
     padding: 0;
     user-select: none;
     max-width: 100%;
+	gap: 2px;   /* ← tweak this: 4px / 6px / 8px */
 }
 
 .segmented.two {
@@ -255,6 +257,7 @@ button:disabled {
     grid-auto-flow: row;
     grid-template-columns: 1fr;
     border-radius: 12px;
+	row-gap: 6px;
 }
 
 .segmented input {
@@ -304,6 +307,7 @@ button:disabled {
     background: var(--accent);
     color: var(--bg);
     box-shadow: 0 0 0 1px var(--accent) inset;
+	border-color:var(--accent);
 }
 
 /* Disabled state (generic) – kept for completeness */
@@ -328,6 +332,7 @@ button:disabled {
     color: var(--muted);
     box-shadow: none;
 	background-color: #EEEEEEFF;
+	border-color:var(--border);
 }
 
 
@@ -642,8 +647,8 @@ h3.ctl-label{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     margin-left: 6px;
     border-radius: 50%;
     background: var(--border);
@@ -668,3 +673,100 @@ h3.ctl-label{
     content: none !important;
 }
 
+
+/* === Unified control rounding (all controls pill-shaped like Next/Previous) === */
+/*-------------------------------------------------------------------- */
+button,
+input[type="text"],
+input[type="number"],
+input[type="file"],
+.select-pill,
+.segmented label,
+.segmented.stack label,
+#cycleGroup.cycle-buttons button,
+.sidebar #resetFiltry.btn.full,
+.dropzone {
+    border-radius: 999px;
+	 border-width: var(--ctl-border-width);
+}
+
+/* === Make 2-button groups look like one pill split in the middle === */
+/*-------------------------------------------------------------------- */
+.segmented.two {
+    gap: 0 !important; /* No space between left & right halves */
+    border-radius: 999px;
+}
+
+/* Left half */
+.segmented.two label:first-of-type {
+    border-top-left-radius: 999px !important;
+    border-bottom-left-radius: 999px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+/* Right half */
+.segmented.two label:last-of-type {
+    border-top-right-radius: 999px !important;
+    border-bottom-right-radius: 999px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+/* Make sure the touching border between left and right merges cleanly */
+.segmented.two label {
+    border-radius: 0 !important;
+    margin: 0;
+}
+
+
+
+
+/* Make the PREV/NEXT buttons look like one pill split in the middle */
+/*-------------------------------------------------------------------- */
+#cycleGroup {
+    gap: 0; /* no space between halves */
+}
+
+#cycleGroup button {
+    border-radius: 0; /* reset */
+}
+
+/* left half */
+#cycleGroup button:first-of-type {
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+}
+
+/* right half */
+#cycleGroup button:last-of-type {
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+/*-------------------------------------------------------------------- */
+/* === Cycler PREV/NEXT looks like one pill split in the middle (override) === */
+#cycleGroup.cycle-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; /* no space between halves */
+    border-radius: 999px;
+}
+
+#cycleGroup.cycle-buttons button {
+    border-radius: 0; /* reset all corners */
+}
+
+/* left half */
+#cycleGroup.cycle-buttons button:first-of-type {
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-right-width: var(--ctl-border-width);
+}
+
+/* right half */
+#cycleGroup.cycle-buttons button:last-of-type {
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+    border-left-width: var(--ctl-border-width);
+    margin-left: -1px; /* visually merge middle border into a single line */
+}
