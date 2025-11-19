@@ -392,12 +392,14 @@ html[data-theme="dark"] .select-pill {
 }
 
 .select-pill:hover {
-    box-shadow: 0 0 0 1px var(--accent) inset;
+	outline: 3px solid var(--accent);
+	outline-offset: -3px;  
 }
 
 .select-pill:focus {
     border-color: var(--accent);
-    box-shadow: 0 0 0 1px var(--accent) inset;
+	outline: 3px solid var(--accent);
+	outline-offset: -3px;  
 }
 
 #cycleGroup.cycle-buttons {
@@ -563,7 +565,7 @@ button:focus-visible,
 #scale {
     width: -webkit-fill-available;
 	min-width: 150px;
-	max-width: 250px;
+	max-width: 300px;
 }
 
 
