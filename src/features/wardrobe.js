@@ -239,8 +239,8 @@ export function applyWardrobeLayers({ mirrorTop }) {
     // --- Apply storage modes to bottom & top ---
     // Bottom: replacement -> bottomAll-L / bottomAll-R
     if (gBase && bottomMode === 'replacement') {
-        const bottomAllL = gBase.querySelector('#bottomAll-L');
-        const bottomAllR = gBase.querySelector('#bottomAll-R');
+        const bottomAllL = gBase.querySelector('#bottomAllL');
+        const bottomAllR = gBase.querySelector('#bottomAllR');
         const showLeft   = (bottomSide === 'left');
         if (bottomAllL) bottomAllL.setAttribute('display', showLeft ? null : 'none');
         if (bottomAllR) bottomAllR.setAttribute('display', showLeft ? 'none' : null);
@@ -248,8 +248,8 @@ export function applyWardrobeLayers({ mirrorTop }) {
 
     // Top: replacement -> topAll-L / topAll-R
     if (gTop && topMode === 'replacement') {
-        const topAllL   = gTop.querySelector('#topAll-L');
-        const topAllR   = gTop.querySelector('#topAll-R');
+        const topAllL   = gTop.querySelector('#topAllL');
+        const topAllR   = gTop.querySelector('#topAllR');
         const showLeftT = (topSide === 'left');
         if (topAllL) topAllL.setAttribute('display', showLeftT ? null : 'none');
         if (topAllR) topAllR.setAttribute('display', showLeftT ? 'none' : null);
