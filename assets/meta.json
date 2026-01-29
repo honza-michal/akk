@@ -191,7 +191,7 @@
             },
             "storageSideSwitch": {
                 "enabled": true,
-                "mode": "replacement",
+                "mode": "layers",
                 "defaultBottomSide": "right"
             },
             "priority_storage_loc": true,
