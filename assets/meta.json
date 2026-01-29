@@ -112,8 +112,7 @@
                 "top_11",
                 "top_12",
                 "top_13",
-                "top_14",
-				"top_14a"
+                "top_14"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vpravo",
@@ -147,8 +146,7 @@
                 "top_11",
                 "top_12",
                 "top_13",
-                "top_14",
-				"top_14"
+                "top_14"
 				
             ],
             "vlastnosti": {
@@ -183,8 +181,7 @@
                 "top_11",
                 "top_12",
                 "top_13",
-                "top_14",
-				"top_14"
+                "top_14"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vpravo",
@@ -417,7 +414,8 @@
                 "top_09",
                 "top_11",
                 "top_12",
-                "top_13"
+                "top_13",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -447,7 +445,8 @@
                 "top_09",
                 "top_11",
                 "top_12",
-                "top_13"
+                "top_13",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -474,7 +473,8 @@
             "tops": [
                 "top_07",
                 "top_08",
-                "top_10"
+                "top_10",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -500,7 +500,8 @@
             "tops": [
                 "top_07",
                 "top_08",
-                "top_10"
+                "top_10",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -526,7 +527,8 @@
             "tops": [
                 "top_07",
                 "top_08",
-                "top_10"
+                "top_10",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -552,7 +554,8 @@
             "tops": [
                 "top_07",
                 "top_08",
-                "top_10"
+                "top_10",
+				"top_14a"
             ],
             "vlastnosti": {
                 "orientaceVstupu": "dole",
@@ -1246,7 +1249,7 @@
                 "defaultTopSide": "left"
             },
             "mirror": {
-                "enabled": true
+                "enabled": false
             },
 			"spojeni_chodeb": "wide"
         }
