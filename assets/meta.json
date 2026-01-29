@@ -1242,7 +1242,7 @@
             "storageSideSwitch": {
                 "enabled": true,
                 "mode": "layers",
-                "defaultTopSide": "left"
+                "defaultTopSide": "right"
             },
             "mirror": {
                 "enabled": false
