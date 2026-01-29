@@ -1247,7 +1247,7 @@
             "mirror": {
                 "enabled": false
             },
-			"spojeni_chodeb": "wide"
+			"spojeni_chodeb": "narrow"
         }
     ]
 }
