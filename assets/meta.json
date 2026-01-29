@@ -762,7 +762,7 @@
             },
             "storageSideSwitch": {
                 "enabled": true,
-                "mode": "layers",
+                "mode": "replacement",
                 "defaultBottomSide": "left"
             },
             "priority_storage_loc": false,
@@ -798,7 +798,7 @@
             },
             "storageSideSwitch": {
                 "enabled": true,
-                "mode": "layers",
+                "mode": "replacement",
                 "defaultBottomSide": "left"
             },
             "priority_storage_loc": false,
@@ -807,7 +807,7 @@
         },
         {
             "id": "bottom_i1",
-            "name": "Varianta i1",
+            "name": "Varianta I1",
             "file": "assets/bottoms/bottom_i1.svg",
             "tops": [
                 "top_01",
@@ -843,7 +843,7 @@
 			"kompatibilni_koupelna": 3
         },
 		{
-            "id": "bottom_i2",
+            "id": "bottom_I2",
             "name": "Varianta i2",
             "file": "assets/bottoms/bottom_i2.svg",
             "tops": [
