@@ -459,7 +459,7 @@
                 "samostatnaGaraz": true
             },
             "storageSideSwitch": {
-                "enabled": false,
+                "enabled": true,
                 "mode": "replacement",
                 "defaultBottomSide": "right"
             },
