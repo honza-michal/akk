@@ -1245,7 +1245,7 @@
                 "defaultTopSide": "right"
             },
             "mirror": {
-                "enabled": false
+                "enabled": true
             },
 			"spojeni_chodeb": "narrow"
         }
