@@ -2,9 +2,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 1758 2465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
     <g id="bottom">
+        <path d="M353.585,144.192l0,1010l-336.667,0l0,1292.917l1596.25,0l0,-2302.917l-1259.583,0Zm1219.167,40.417l-1178.75,0l0,969.583l1178.75,0l0,-969.583Z" style="fill:#fff;"/>
         <path d="M1111.502,1464.192l-10.417,0l0,47.083l-72.5,0l0,10l-142.917,0l0,-10l-175,0l0,-203.333l20,0l0,-113.333l114.583,0l0,80.833l20.417,0l0,-121.25l235.417,0l0,175l10.417,0l0,135Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
         <path d="M1572.752,1194.609l0,134.583l20,0l0,135l-20,0l0,47.083l-222.5,0l0,10l-107.5,0l0,-10l-121.25,0l0,-47.083l-10,0l0,-135l10,0l0,-134.583l451.25,0Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
         <path d="M885.669,1521.275l142.917,0l0,10l72.5,0l0,281.667l-100.833,0l0,10l-107.917,0l0,-10l-6.667,0l0,-92.917l-10,0l0,-107.917l10,0l0,-90.833Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
+        <path d="M1087.752,2076.692l-356.667,0l0,-243.75l161.25,0l0,-10l107.917,0l0,10l87.5,0l0,243.75Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
         <path d="M1101.085,2197.942l20.417,0l0,107.917l-20.417,0l0,100.833l-370.417,0l0,-100.833l-20,0l0,-107.917l20,0l0.417,-87.5l370,0l0,87.5Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
         <path d="M1121.502,2197.942l20,0l0,-666.667l101.25,0l0,-10l107.5,0l0,10l222.5,0l0,875.417l-33.75,0l0,20.417l-336.667,0l0,-20.417l-60.833,0l0,-100.833l-20,0l0,-107.917Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>
         <path d="M875.669,1720.025l-10,0l0,68.75l-135,0l0,-244.167l135,0l0,67.5l10,0l0,107.917Z" style="fill:#e0e0e0;fill-opacity:0.25;stroke:#a8a8a8;stroke-width:0.34px;"/>

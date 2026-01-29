@@ -971,7 +971,7 @@
         <rect x="730.669" y="1194.609" width="135" height="80.833" style="fill:#ddb682;stroke:#000;stroke-width:0.88px;"/>
         <path d="M730.669,1275.442l67.5,-80.833l67.5,80.833" style="fill:none;fill-rule:nonzero;stroke:#000;stroke-width:0.34px;"/>
     </g>
-    <g id="bottomAnchor">
+    <g id="anchorBottom">
         <path d="M1755.669,144.192l-285.417,0" style="fill:none;fill-rule:nonzero;stroke:#f00;stroke-width:0.34px;"/>
         <path d="M1613.169,1.692l0,285" style="fill:none;fill-rule:nonzero;stroke:#f00;stroke-width:0.34px;"/>
     </g>
