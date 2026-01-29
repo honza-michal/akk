@@ -941,6 +941,8 @@
     <g id="bottomR">
         <path d="M1020.252,1275.442l80.833,0l0,-121.25l-80.833,0l0,121.25Z" style="fill:#ddb682;stroke:#000;stroke-width:0.88px;"/>
         <path d="M1020.252,1275.442l80.833,-60.417l-80.833,-60.833" style="fill:none;fill-rule:nonzero;stroke:#000;stroke-width:0.34px;"/>
+        <rect x="730.669" y="1194.609" width="135" height="80.833" style="fill:#ddb682;stroke:#000;stroke-width:0.88px;"/>
+        <path d="M730.669,1275.442l67.5,-80.833l67.5,80.833" style="fill:none;fill-rule:nonzero;stroke:#000;stroke-width:0.34px;"/>
     </g>
     <g id="anchorBottom">
         <path d="M1755.669,144.192l-285.417,0" style="fill:none;fill-rule:nonzero;stroke:#f00;stroke-width:0.34px;"/>
