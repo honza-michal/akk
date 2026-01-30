@@ -404,6 +404,41 @@
 			"spojeni_chodeb": "narrow",			
             "kompatibilni_koupelna": 3
         },
+		{
+            "id": "bottom_c4",
+            "name": "Varianta C4",
+            "file": "assets/bottoms/bottom_c4.svg",
+            "tops": [
+                "top_01",
+                "top_04",
+                "top_06",
+                "top_07",
+                "top_08",
+                "top_09",
+                "top_11",
+                "top_12",
+                "top_13",
+                "top_14",
+				"top_14a"
+            ],
+            "vlastnosti": {
+                "orientaceVstupu": "dole",
+                "orientaceGaraze": "svisle",
+                "vjezdGaraze": "dole",
+                "samostatneWC": true,
+                "samostatnaPradelna": false,
+                "spiz": false,
+                "samostatnaGaraz": true
+            },
+            "storageSideSwitch": {
+                "enabled": true,
+                "mode": "replacement",
+                "defaultBottomSide": "right"
+            },
+            "priority_storage_loc": true,
+			"spojeni_chodeb": "narrow",			
+            "kompatibilni_koupelna": 3
+        },
         {
             "id": "bottom_d1",
             "name": "Varianta D1",
