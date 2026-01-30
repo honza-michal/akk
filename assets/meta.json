@@ -1047,9 +1047,9 @@
             "kompatibilni_koupelna": 2
         },
         {
-            "id": "bottom_l",
-            "name": "Varianta L",
-            "file": "assets/bottoms/bottom_l.svg",
+            "id": "bottom_l1",
+            "name": "Varianta L1",
+            "file": "assets/bottoms/bottom_l1.svg",
             "tops": [
                 "top_01",
                 "top_04",
