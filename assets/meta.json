@@ -823,8 +823,8 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "svisle",
-                "vjezdGaraze": "dole",
+                "orientaceGaraze": "vodorovne",
+                "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
                 "spiz": false,
@@ -843,7 +843,7 @@
         },
 		{
             "id": "bottom_I2",
-            "name": "Varianta i2",
+            "name": "Varianta I2",
             "file": "assets/bottoms/bottom_i2.svg",
             "tops": [
                 "top_01",
@@ -860,8 +860,8 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "svisle",
-                "vjezdGaraze": "dole",
+                "orientaceGaraze": "vodorovne",
+                "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
                 "spiz": false,
@@ -892,8 +892,8 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "svisle",
-                "vjezdGaraze": "dole",
+                "orientaceGaraze": "vodorovne",
+                "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
                 "spiz": true,
@@ -924,8 +924,8 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "svisle",
-                "vjezdGaraze": "dole",
+                "orientaceGaraze": "vodorovne",
+                "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
                 "spiz": true,
@@ -942,10 +942,106 @@
 			"spojeni_chodeb": "wide",
             "kompatibilni_koupelna": 2
         },
+		{
+            "id": "bottom_k1",
+            "name": "Varianta K1",
+            "file": "assets/bottoms/bottom_k1.svg",
+            "tops": [
+                "top_07",
+                "top_09",
+                "top_11",
+                "top_12",
+                "top_13",
+				"top_14a"
+            ],
+            "vlastnosti": {
+                "orientaceVstupu": "vpravo",
+                "orientaceGaraze": "vododobne",
+                "vjezdGaraze": "vpravo",
+                "samostatneWC": true,
+                "samostatnaPradelna": false,
+                "spiz": true,
+                "samostatnaGaraz": true,
+                "dvougaraz": true,
+                "samostatnaPracovna": false
+            },
+            "storageSideSwitch": {
+                "enabled": true,
+                "mode": "replacement",
+                "defaultBottomSide": "left"
+            },
+            "priority_storage_loc": false,
+			"spojeni_chodeb": "wide",
+            "kompatibilni_koupelna": 2
+        },
+		{
+            "id": "bottom_k2",
+            "name": "Varianta K2",
+            "file": "assets/bottoms/bottom_k2.svg",
+            "tops": [
+                "top_07",
+                "top_09",
+                "top_11",
+                "top_12",
+                "top_13",
+				"top_14a"
+            ],
+            "vlastnosti": {
+                "orientaceVstupu": "vpravo",
+                "orientaceGaraze": "vododobne",
+                "vjezdGaraze": "vpravo",
+                "samostatneWC": true,
+                "samostatnaPradelna": false,
+                "spiz": true,
+                "samostatnaGaraz": true,
+                "dvougaraz": true,
+                "samostatnaPracovna": false
+            },
+            "storageSideSwitch": {
+                "enabled": true,
+                "mode": "replacement",
+                "defaultBottomSide": "left"
+            },
+            "priority_storage_loc": false,
+			"spojeni_chodeb": "wide",
+            "kompatibilni_koupelna": 2
+        },
+		{
+            "id": "bottom_k3",
+            "name": "Varianta K3",
+            "file": "assets/bottoms/bottom_k3.svg",
+            "tops": [
+                "top_07",
+                "top_09",
+                "top_11",
+                "top_12",
+                "top_13",
+				"top_14a"
+            ],
+            "vlastnosti": {
+                "orientaceVstupu": "vpravo",
+                "orientaceGaraze": "svisle",
+                "vjezdGaraze": "dole",
+                "samostatneWC": true,
+                "samostatnaPradelna": false,
+                "spiz": true,
+                "samostatnaGaraz": true,
+                "dvougaraz": true,
+                "samostatnaPracovna": false
+            },
+            "storageSideSwitch": {
+                "enabled": true,
+                "mode": "layers",
+                "defaultBottomSide": "left"
+            },
+            "priority_storage_loc": false,
+			"spojeni_chodeb": "wide",
+            "kompatibilni_koupelna": 2
+        },
         {
-            "id": "bottom_k",
-            "name": "Varianta K",
-            "file": "assets/bottoms/bottom_k.svg",
+            "id": "bottom_l",
+            "name": "Varianta L",
+            "file": "assets/bottoms/bottom_l.svg",
             "tops": [
                 "top_01",
                 "top_04",
