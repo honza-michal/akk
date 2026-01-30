@@ -823,7 +823,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "vodorovne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
@@ -860,7 +860,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "vodorovne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
@@ -892,7 +892,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "vodorovne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
@@ -924,7 +924,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vlevo",
-                "orientaceGaraze": "vodorovne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vlevo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
@@ -956,7 +956,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vpravo",
-                "orientaceGaraze": "vododobne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vpravo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
@@ -992,7 +992,7 @@
             ],
             "vlastnosti": {
                 "orientaceVstupu": "vpravo",
-                "orientaceGaraze": "vododobne",
+                "orientaceGaraze": "vodorovně",
                 "vjezdGaraze": "vpravo",
                 "samostatneWC": true,
                 "samostatnaPradelna": false,
